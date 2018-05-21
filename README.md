@@ -1,14 +1,13 @@
-README
-CSC 220, Spring 2016
-
-Description:
+Description
+-----
 This application parses over a text document(ANSI-ASCII) removes common english
 pronoun and punctuation and save the result as a preprocessed file.
 The application also parse over the preprocessed file and indexes
 all the words. As an optional feature, it can return an index file of the
 preprocessed document.
 
-Dependencies:
+Dependencies
+-----
 avl_tree.py
 binary_search_tree.py
 binary_tree.py
@@ -27,7 +26,8 @@ splay_tree.py
 tree.py
 unsorted_table_map.py
 
-Requirements:
+Requirements
+-----
 - Python 3
     -- argparse
     -- sys
@@ -37,15 +37,18 @@ Requirements:
 - Input files
     -- A text document for indexing with ANSI-ISO encoding
 
-Run as:
+Run as
+-----
 python3 project4.py [-h] [--index  INDEXED] [--map MAP_TYPE] original preprocessed
 python3 preprocessor.py [-h] [--output OUTPUT] input stopwords
 
-Operation:
+Operation
+-----
 Prompt for a lookup word after indexing.
 Prompt for quit or another lookup after each search.
 
-Output:
+Output
+-----
 - preprocessed.py
     Returns total removed stopwords and short words (less than 3 characters)
     on screen after processing the input file.
