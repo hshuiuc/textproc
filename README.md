@@ -66,3 +66,7 @@ Output
         - Number of times keyword is used in the original file.
         - Lookup process duration in seconds
     - Returns unsuccessful search warning if search keyword was not found.
+    
+  Hierarchy
+  -----
+  ![](Indexer.PNG)
